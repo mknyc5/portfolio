@@ -140,6 +140,16 @@ footer a {
   margin-bottom: 1rem;
 }
 
+/*About Me Image Edits */
+.aboutmepic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 60;
+  margin-bottom: 2rem;
+}
+
 /* Work Experience Heading */
 .workexp {
   margin-top: 2rem;
