@@ -1,4 +1,4 @@
-
+/* Overall theme/font/size for the page */
 html, body {
   height: 100%;
   width: 100%;
@@ -14,7 +14,7 @@ html, body {
   font-size: 300%;
 }
 
-
+/*Edits made to the Navigation Bar */
 .navbar {
   padding: .8rem;
 }
@@ -32,6 +32,7 @@ html, body {
   height: 100%;
 }
 
+/* Edits made to the Carousel Caption */
 .carousel-caption {
   position:absolute;
   top: 50%;
@@ -49,6 +50,8 @@ html, body {
   text-shadow: 1 px 1px 15px #000;
   padding-bottom: 1rem;
 }
+
+/* Edits to the buttons: Not active rn, for future use*/
 .btn-primary {
   background-color: #6648b1;
   border: 1px solid #6648b1;
@@ -61,6 +64,8 @@ html, body {
 .padding {
   padding-bottom: 2rem;
 }
+
+/* Welcome edit to make nicer */
 .welcome {
   width: 75%;
   margin: 0 auto;
@@ -77,21 +82,6 @@ html, body {
 .card-img-top {
   width: 400px;
   height: 300px;
-}
-
-
-.fa-code {
-  color: #e54d26;
-}
-.fa-bold {
-  color: #563d7c;
-}
-.fa-css3 {
-  color: #2163af;
-}
-.fa-code, .fa-bold, .fa-css3 {
-  font-size: 4rem;
-  margin: 1rem;
 }
 
 /* Edits to the Social Media Content */
@@ -127,6 +117,8 @@ html, body {
 .fa-youtube:hover {
   color: #d5d5d5;
 } 
+
+/* Edits to the Footer: Color, Spacing */
 footer {
   background-color: #3f3f3f;
   color: #d5d5d5;
@@ -148,14 +140,19 @@ footer a {
   margin-bottom: 1rem;
 }
 
-/* Work Experience: Edits to the Project Page; Make image move to the right */
+/* Work Experience Heading */
+.workexp {
+  margin-top: 2rem;
+}
+
+/* Project: Edits to the Project Page; Make image move to the right */
 .rightside {
   height: 40%;
   width: 37%;
   float: right;
 }
 
-/* Work Experience: Solar Hydrogen Car */
+/* Project: Solar Hydrogen Car */
 .carright {
   -webkit-transform:rotate(90deg);
   -moz-transform: rotate(90deg);
@@ -168,7 +165,7 @@ footer a {
   
 }
 
-/* Work Experience: Scratch Project */
+/* Project: Scratch Project */
 .scratch {
   height: 180%;
   width: 180%;
